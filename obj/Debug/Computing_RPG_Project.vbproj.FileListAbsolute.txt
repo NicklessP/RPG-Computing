@@ -1,0 +1,13 @@
+H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\obj\Debug\Computing_RPG_Project.vbprojResolveAssemblyReference.cache
+H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\obj\Debug\Computing_RPG_Project.Form1.resources
+H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\obj\Debug\Computing_RPG_Project.Form2.resources
+H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\obj\Debug\Computing_RPG_Project.Resources.resources
+H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\obj\Debug\Computing_RPG_Project.vbproj.GenerateResource.Cache
+H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\obj\Debug\Computing_RPG_Project.vbproj.CoreCompileInputs.cache
+H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\bin\Debug\Computing_RPG_Project.exe.config
+H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\bin\Debug\Computing_RPG_Project.exe
+H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\bin\Debug\Computing_RPG_Project.pdb
+H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\bin\Debug\Computing_RPG_Project.xml
+H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\obj\Debug\Computing_RPG_Project.exe
+H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\obj\Debug\Computing_RPG_Project.xml
+H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\obj\Debug\Computing_RPG_Project.pdb
