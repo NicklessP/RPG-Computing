@@ -4,6 +4,7 @@ Public Class Form2
     Dim MHD As String
     Dim task As String
     Dim name As String
+    Dim EXP As Integer
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
 
     End Sub
@@ -14,7 +15,6 @@ Public Class Form2
 
     Private Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton2.CheckedChanged
         HScrollBar1.Maximum = 33
-        Form1.pgbExprienceBar.Maximum = 100
         HScrollBar1.Value = 1
         Label5.Text = HScrollBar1.Value
         MHD = "Hours"
@@ -52,25 +52,39 @@ Public Class Form2
         Me.Close()
         MsgBox("Task: " & name & vbNewLine & "Difficulty: " & difficulty & vbNewLine & "Length: " & time & " " & MHD & vbNewLine & "Type: " & task)
         If Form1.ListBox1.Items.Count = 0 Then
+
             Form1.ListBox1.Items.Add("Task: " & name)
             Form1.ListBox1.Items.Add("Difficulty: " & difficulty)
             Form1.ListBox1.Items.Add("Length: " & time & " " & MHD)
             Form1.ListBox1.Items.Add("Type: " & task)
+
         ElseIf Form1.ListBox2.Items.Count = 0 Then
+
             Form1.ListBox2.Items.Add("Task: " & name)
             Form1.ListBox2.Items.Add("Difficulty: " & difficulty)
             Form1.ListBox2.Items.Add("Length: " & time & " " & MHD)
             Form1.ListBox2.Items.Add("Type: " & task)
+
         ElseIf Form1.ListBox3.Items.Count = 0 Then
+
             Form1.ListBox3.Items.Add("Task: " & name)
             Form1.ListBox3.Items.Add("Difficulty: " & difficulty)
             Form1.ListBox3.Items.Add("Length: " & time & " " & MHD)
             Form1.ListBox3.Items.Add("Type: " & task)
+
+            If MHD = "Days" Then
+                EXP =
+            ElseIf MHD = "Hours" Then
+
+            ElseIf MHD = "Days" Then
+
+            End If
+
+
         Else
             MsgBox("Please finish a task")
         End If
-        Form1.pgbExprienceBar.Maximum = 100
-        Form1.pgbExprienceBar.Value = Form1.pgbExprienceBar.Value + 10
+
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
