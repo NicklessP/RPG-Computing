@@ -14,7 +14,8 @@ Public Class Form2
 
     Private Sub RadioButton2_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton2.CheckedChanged
         HScrollBar1.Maximum = 33
-        HScrollBar1.Value = 1
+        Form1.pgbExprienceBar.Maximum = 100
+        Form1.pgbExprienceBar.Value = Form1.pgbExprienceBar.Value + 10        HScrollBar1.Value = 1
         Label5.Text = HScrollBar1.Value
         MHD = "Hours"
     End Sub
@@ -68,7 +69,8 @@ Public Class Form2
         Else
             MsgBox("Please finish a task")
         End If
-
+        Form1.pgbExprienceBar.Maximum = 100
+        Form1.pgbExprienceBar.Value = Form1.pgbExprienceBar.Value + 10
     End Sub
 
     Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
