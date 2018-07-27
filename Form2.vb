@@ -4,7 +4,7 @@ Public Class Form2
     Dim MHD As String
     Dim task As String
     Dim name As String
-    Dim EXP As Integer
+    Public EXP1, EXP2, EXP3 As Integer
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
 
     End Sub
@@ -57,6 +57,16 @@ Public Class Form2
             Form1.ListBox1.Items.Add("Difficulty: " & difficulty)
             Form1.ListBox1.Items.Add("Length: " & time & " " & MHD)
             Form1.ListBox1.Items.Add("Type: " & task)
+            Form1.CheckBox1.Enabled = True
+            If MHD = "Minutes" Then
+                EXP1 = Math.Sqrt(difficulty * time)
+            ElseIf MHD = "Hours" Then
+                EXP1 = Math.Sqrt(difficulty * time * 60)
+            ElseIf MHD = "Days" Then
+                EXP1 = Math.Sqrt(difficulty * time * 24 * 60)
+            Else
+                MsgBox("Error Calculating Experience")
+            End If
 
         ElseIf Form1.ListBox2.Items.Count = 0 Then
 
@@ -64,6 +74,17 @@ Public Class Form2
             Form1.ListBox2.Items.Add("Difficulty: " & difficulty)
             Form1.ListBox2.Items.Add("Length: " & time & " " & MHD)
             Form1.ListBox2.Items.Add("Type: " & task)
+            Form1.CheckBox2.Enabled = True
+
+            If MHD = "Minutes" Then
+                EXP2 = Math.Sqrt(difficulty * time)
+            ElseIf MHD = "Hours" Then
+                EXP2 = Math.Sqrt(difficulty * time * 60)
+            ElseIf MHD = "Days" Then
+                EXP2 = Math.Sqrt(difficulty * time * 24 * 60)
+            Else
+                MsgBox("Error Calculating Experience")
+            End If
 
         ElseIf Form1.ListBox3.Items.Count = 0 Then
 
@@ -71,13 +92,17 @@ Public Class Form2
             Form1.ListBox3.Items.Add("Difficulty: " & difficulty)
             Form1.ListBox3.Items.Add("Length: " & time & " " & MHD)
             Form1.ListBox3.Items.Add("Type: " & task)
+            Form1.CheckBox3.Enabled = True
 
-            If MHD = "Days" Then
-                EXP =
+            If MHD = "Minutes" Then
+                EXP3 = Math.Sqrt(difficulty * time)
             ElseIf MHD = "Hours" Then
-
+                EXP3 = Math.Sqrt(difficulty * time * 60)
             ElseIf MHD = "Days" Then
+                EXP3 = Math.Sqrt(difficulty * time * 24 * 60)
 
+            Else
+                MsgBox("Error Calculating Experience")
             End If
 
 
