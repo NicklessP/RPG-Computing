@@ -50,6 +50,24 @@ Public Class Form2
         name = TextBox1.Text
         Me.Close()
         MsgBox("Task: " & name & vbNewLine & "Difficulty: " & difficulty & vbNewLine & "Length: " & time & " " & MHD & vbNewLine & "Type: " & task)
+        If Form1.ListBox1.Items.Count = 0 Then
+            Form1.ListBox1.Items.Add("Task: " & name)
+            Form1.ListBox1.Items.Add("Difficulty: " & difficulty)
+            Form1.ListBox1.Items.Add("Length: " & time & " " & MHD)
+            Form1.ListBox1.Items.Add("Type: " & task)
+        ElseIf Form1.ListBox2.Items.Count = 0 Then
+            Form1.ListBox2.Items.Add("Task: " & name)
+            Form1.ListBox2.Items.Add("Difficulty: " & difficulty)
+            Form1.ListBox2.Items.Add("Length: " & time & " " & MHD)
+            Form1.ListBox2.Items.Add("Type: " & task)
+        ElseIf Form1.ListBox3.Items.Count = 0 Then
+            Form1.ListBox3.Items.Add("Task: " & name)
+            Form1.ListBox3.Items.Add("Difficulty: " & difficulty)
+            Form1.ListBox3.Items.Add("Length: " & time & " " & MHD)
+            Form1.ListBox3.Items.Add("Type: " & task)
+        Else
+            MsgBox("Please finish a task")
+        End If
 
     End Sub
 
