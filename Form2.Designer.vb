@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form2
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form2
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.HScrollBar1 = New System.Windows.Forms.HScrollBar()
@@ -59,16 +59,18 @@ Partial Class Form2
         '
         'HScrollBar2
         '
-        Me.HScrollBar2.Location = New System.Drawing.Point(34, 240)
+        Me.HScrollBar2.Location = New System.Drawing.Point(34, 213)
         Me.HScrollBar2.Maximum = 109
+        Me.HScrollBar2.Minimum = 1
         Me.HScrollBar2.Name = "HScrollBar2"
         Me.HScrollBar2.Size = New System.Drawing.Size(285, 21)
         Me.HScrollBar2.TabIndex = 2
+        Me.HScrollBar2.Value = 1
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(122, 214)
+        Me.Label1.Location = New System.Drawing.Point(122, 200)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(106, 13)
         Me.Label1.TabIndex = 3
@@ -92,6 +94,7 @@ Partial Class Form2
         '
         'ComboBox1
         '
+        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Physical Activity", "Chores", "Homework", "Sit Down Work", "Other"})
         Me.ComboBox1.Location = New System.Drawing.Point(112, 444)
@@ -161,7 +164,7 @@ Partial Class Form2
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(158, 273)
+        Me.Label6.Location = New System.Drawing.Point(155, 234)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(40, 13)
         Me.Label6.TabIndex = 14
@@ -186,7 +189,7 @@ Partial Class Form2
         Me.Controls.Add(Me.HScrollBar2)
         Me.Controls.Add(Me.HScrollBar1)
         Me.Controls.Add(Me.Button1)
-        Me.Name = "Form2"
+        Me.name = "Form2"
         Me.Text = "Input Task"
         Me.ResumeLayout(False)
         Me.PerformLayout()
