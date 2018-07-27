@@ -1,4 +1,4 @@
-﻿Public Class Form2
+Public Class Form2
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
 
     End Sub
@@ -27,5 +27,11 @@
 
     Private Sub HScrollBar2_Scroll(sender As Object, e As ScrollEventArgs) Handles HScrollBar2.Scroll
         Label6.Text = HScrollBar2.Value
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Close()
+        'Bring Experience points from Form 2 back to Form 1
+        Form1.pgbExprienceBar.Value = 10
     End Sub
 End Class
