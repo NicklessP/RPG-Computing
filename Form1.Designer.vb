@@ -53,16 +53,15 @@ Partial Class Form1
         'pgbExprienceBar
         '
         Me.pgbExprienceBar.Location = New System.Drawing.Point(50, 213)
-        Me.pgbExprienceBar.Minimum = 1
         Me.pgbExprienceBar.Name = "pgbExprienceBar"
         Me.pgbExprienceBar.Size = New System.Drawing.Size(243, 23)
         Me.pgbExprienceBar.TabIndex = 1
-        Me.pgbExprienceBar.Value = 1
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(50, 194)
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Location = New System.Drawing.Point(152, 197)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(39, 13)
         Me.Label1.TabIndex = 2
