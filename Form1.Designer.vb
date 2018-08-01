@@ -37,6 +37,7 @@ Partial Class Form1
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.btnAccCard = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btn_Task_Create
@@ -171,11 +172,21 @@ Partial Class Form1
         Me.Label6.TabIndex = 13
         Me.Label6.Text = "1"
         '
+        'btnAccCard
+        '
+        Me.btnAccCard.Location = New System.Drawing.Point(446, 260)
+        Me.btnAccCard.Name = "btnAccCard"
+        Me.btnAccCard.Size = New System.Drawing.Size(133, 23)
+        Me.btnAccCard.TabIndex = 14
+        Me.btnAccCard.Text = "Account Card"
+        Me.btnAccCard.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(656, 308)
+        Me.Controls.Add(Me.btnAccCard)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.CheckBox3)
@@ -212,4 +223,5 @@ Partial Class Form1
     Friend WithEvents CheckBox3 As CheckBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents btnAccCard As Button
 End Class
