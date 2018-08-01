@@ -37,7 +37,9 @@ Partial Class Form1
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.btnAccCard = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btn_Task_Create
@@ -172,21 +174,41 @@ Partial Class Form1
         Me.Label6.TabIndex = 13
         Me.Label6.Text = "1"
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(463, 12)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(93, 49)
+        Me.Button1.TabIndex = 14
+        Me.Button1.Text = "Save"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'btnAccCard
         '
-        Me.btnAccCard.Location = New System.Drawing.Point(446, 260)
+        Me.btnAccCard.Location = New System.Drawing.Point(446, 252)
         Me.btnAccCard.Name = "btnAccCard"
         Me.btnAccCard.Size = New System.Drawing.Size(133, 23)
-        Me.btnAccCard.TabIndex = 14
+        Me.btnAccCard.TabIndex = 15
         Me.btnAccCard.Text = "Account Card"
         Me.btnAccCard.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(572, 20)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(72, 33)
+        Me.Button2.TabIndex = 16
+        Me.Button2.Text = "Load"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(656, 308)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.btnAccCard)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.CheckBox3)
@@ -223,5 +245,7 @@ Partial Class Form1
     Friend WithEvents CheckBox3 As CheckBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents Button1 As Button
     Friend WithEvents btnAccCard As Button
+    Friend WithEvents Button2 As Button
 End Class
