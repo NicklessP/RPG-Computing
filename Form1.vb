@@ -1,6 +1,8 @@
 Public Class Form1
     Dim GrossXP, LevelUp As Integer
     Public EXP1, EXP2, EXP3 As Integer
+    Public Level As Integer = 1
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
@@ -20,10 +22,12 @@ Public Class Form1
         CheckBox1.Enabled = False
         CheckBox1.CheckState = False
         GrossXP += EXP1
-        LevelUp += EXP1
+        LevelUp = pgbExprienceBar.Value + EXP1
         If LevelUp >= 100 Then
             LevelUp = 0
             pgbExprienceBar.Value = 0
+            Level += 1
+            Label6.Text = Level
         End If
         pgbExprienceBar.Value += EXP1
         Label1.Text = pgbExprienceBar.Value
