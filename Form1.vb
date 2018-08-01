@@ -16,6 +16,10 @@ Public Class Form1
 
     End Sub
 
+    Private Sub btnAccCard_Click(sender As Object, e As EventArgs) Handles btnAccCard.Click
+        Form3.Show()
+    End Sub
+
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
 
         ListBox1.Items.Clear()
