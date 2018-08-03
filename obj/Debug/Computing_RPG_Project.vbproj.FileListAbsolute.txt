@@ -11,3 +11,5 @@ H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\bin\Debug\Com
 H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\obj\Debug\Computing_RPG_Project.exe
 H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\obj\Debug\Computing_RPG_Project.xml
 H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\obj\Debug\Computing_RPG_Project.pdb
+H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\obj\Debug\Computing_RPG_Project.Form4.resources
+H:\Computing Computing\Computing_RPG_Project\Computing_RPG_Project\obj\Debug\Computing_RPG_Project.Form5.resources

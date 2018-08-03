@@ -1,0 +1,21 @@
+Level: 1
+Experience: 0
+Task1 Data:
+
+
+
+
+Task2 Data:
+
+
+
+
+
+
+
+
+Stockpiled XP for 1: 0
+Stockpiled XP for 2: 0
+Stockpiled XP for 3: 0
+GrossXP: 0
+LevelUp: 0
